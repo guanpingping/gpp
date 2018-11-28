@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f3f4f4;
+	font-size: 14px;
+}
+.login{
+	min-height: 654px;
+	position: relative;
+}
+.login .login_img{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: 654px;
+	background: url(image/login-bg.png) no-repeat;
+	background-size: cover;
+}
+.login .login_con{
+	border-radius: 5px;
+	position: absolute;
+	right: 20%;
+	top: 20px;
+	width:400px;
+	padding: 35px 30px 0;
+	box-sizing: border-box;
+	min-height: 475px;
+	background: #FFF;
+}
+.login .login_title{
+	font-size: 20px;
+	color: #333;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.login .login_con form input{
+	width: 100%;
+	height: 40px;
+	padding: 6px 12px;
+	box-sizing: border-box;
+	margin: 0 auto 20px;
+	background: #f3f4f4;
+	border: 1px solid #ebeced;
+	transition: all 1s;
+	outline: none; 
+}
+.login .login_con form #btn{
+	height: 44px;
+	font-size: 16px;
+	color: #fff;
+	background: #fe6d00;
+	border: 0;
+}
+.login .login_con .form_div{
+	overflow: hidden;
+}
+.login .login_con .form_div a:nth-of-type(1){
+	float: left;
+	color: #999;
+}
+.login .login_con .form_div a:nth-of-type(2){
+	float: right;
+	color: #ff7000;
+}
